@@ -1,0 +1,10 @@
+POST http://localhost:3000/users/
+Content-type: application/json
+
+{
+    "email": "email@email.com",
+    "pw": "dator",
+    "subscription": true
+}
+
+
