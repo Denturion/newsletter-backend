@@ -2,9 +2,30 @@ POST http://localhost:3000/users/
 Content-type: application/json
 
 {
-    "email": "email@email.com",
-    "pw": "dator",
+    "email": "husband@email.com",
+    "pw": "borje",
     "subscription": true
 }
 
+###
+
+POST http://localhost:3000/users/login/
+Content-type: application/json
+
+{
+    "email": "davva@email.com",
+    "pw": "borje"
+
+}
+
+###
+
+PUT http://localhost:3000/users/editSubscription/
+Content-type: application/json
+
+{
+    "email": "email@email.com",
+    "subscription": "true"
+
+}
 
