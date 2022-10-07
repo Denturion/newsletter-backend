@@ -1,7 +1,7 @@
 # newsletter-backend
 Back end part in express of a school assignment where you can register a user and choose to subscribe to a newsletter. 
 
-Run npm install to install dependencies.
+Run npm install to install dependencies: -express -cors -mongoose -nodemon
 
 
 The application is connected to a database on mongoAtlas
